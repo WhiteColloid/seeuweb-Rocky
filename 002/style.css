@@ -1,0 +1,52 @@
+.text{     /* 类选择器,默认*/
+			font-size: 20px;
+			color: grey;
+		}
+
+.big{
+	font-size: 50px;
+}
+
+.middle{
+	font-size: 30px;
+	color:red;
+}
+
+.small{
+	font-size: 10px;
+}
+
+#text1{     /*id*/
+		color:purple;
+}
+
+#font{
+	font-size: 80px;
+	font-weight: 900;
+	color:#21d6d8;
+	text-align:center;
+}
+
+#Git{
+	text-indent: 2em;
+	text-align:left;
+	font-family: fantasy;
+}
+
+* {   /* match所有标签，优先级最低*/
+	
+}
+
+ul li{
+	color:blue;
+}
+
+body .li-grey{
+	color:grey;
+}
+
+
+
+
+
+
