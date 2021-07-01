@@ -1,0 +1,125 @@
+*{		/*一开始清除掉浏览器设置，然后页面才会读取后面的设置 */ 
+	padding: 0;
+	margin:0; 
+}
+
+
+.border{
+    border-style: solid;
+    border-width: 1px;
+    border-top-color: red;
+    border-bottom: dashed;
+    border-bottom-color: blue;
+    border-left-color: blue;
+    border-right-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.padding{
+	height:41px;
+	padding:20px;
+	background-color: #fcfcfc;
+
+	border-style: solid;
+	border-top-color: #ff8500;
+	border-top-width: 3px;
+	border-bottom-color: #edeef0;
+	border-bottom-width: 1px;
+	border-left-style: none;
+	border-right-style: none;
+}
+
+.banner-node{
+	padding:20px;
+	color:#4c4c4c;
+}
+
+.margin{
+	margin:0 auto;
+	width:100px;
+	height:100px;
+	background-color: grey;
+
+
+}
+
+.css3{
+	margin:0 auto;
+	width:500px;
+	height: 500px;
+	background-color: beige;
+	font-size:20px;
+	box-shadow:5px 5px grey;
+
+	text-align: center;
+}
+
+.css3:hover{
+	background-color: grey;
+}
+
+
+.standard{
+	background-color: grey;
+	height:100px;
+}
+
+.box{
+	width: 100%;
+    height: 615px;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+.float-left{
+	background-color: purple;
+	float:left;
+	width: 234px;
+	height:615px;
+}
+
+.float-right{
+	background-color: skyblue;
+	
+}
+
+.float-right>div{
+	float: left;
+    width: 200px;
+    height: 160px;
+    background-color: coral;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+
+
+.grand{
+	margin: 0 auto;
+    width: 800px;
+    height: 700px;
+    background-color: pink;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.father1{
+	height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 50px;
+    top: 60px;
+}
+
+
+.father2{
+	height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
+    right: 50px;
+    top: 60px;
+}
+
